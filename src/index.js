@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import WithObject from './useStateUsing/WithObject';
+// import WithArray from './useStateUsing/WithArray';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <WithObject />
+    <WithArray /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
